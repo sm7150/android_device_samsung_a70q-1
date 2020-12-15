@@ -40,6 +40,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc
+    
+# Keylayout
+PRODUCT_COPY_FILES += \
+    device/samsung/a70q/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl    
 
 # Recovery
 PRODUCT_PACKAGES += \
