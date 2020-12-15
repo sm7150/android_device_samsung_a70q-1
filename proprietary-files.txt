@@ -1,0 +1,14 @@
+# ant - a70qxx-user 10 QP1A.190711.020 A705FNXXU5CTK4 release-keys
+lib64/libantradio.so
+lib64/com.qualcomm.qti.ant@1.0.so
+lib/libantradio.so
+lib/com.qualcomm.qti.ant@1.0.so
+
+# aptX - a70qxx-user 10 QP1A.190711.020 A705FNXXU5CTK4 release-keys
+lib64/libaptX_encoder.so
+
+# QTI - a70qxx-user 10 QP1A.190711.020 A705FNXXU5CTK4 release-keys
+etc/permissions/com.qualcomm.qti.imscmservice.xml
+etc/permissions/privapp-permissions-qti.xml
+etc/permissions/qti_telephony_hidl_wrapper.xml
+etc/sysconfig/qti_whitelist.xml
