@@ -14,8 +14,8 @@ $(call inherit-product, vendor/samsung/a70q/a70q-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-PRODUCT_TARGET_VNDK_VERSION := 29
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_TARGET_VNDK_VERSION := 28
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
